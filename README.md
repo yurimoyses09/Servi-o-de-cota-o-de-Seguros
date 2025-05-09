@@ -157,7 +157,8 @@ Ao validar que o serviço está funcionando no container docker, podemos seguir 
 
 
 1. Enviar os dados via Insonmia para a api:
-![alt text](image.png)
+
+![alt text](image-3.png)
 
 Se os dados estiveram validos tera um retorno de status code 201 e os dados gravados na base.
 Em caso de erro algo semelhante irá retornar:

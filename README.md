@@ -188,4 +188,4 @@ No retorno ira ter os campos "insurance_policy_id" que é a apólice gerada.
 
 ## Autores
 
-- [@yurimoyses09](https://github.com/yurimoyses09)
+- [@Yuri Moyses](https://www.linkedin.com/in/yuri-moys%C3%A9s-541451176/)

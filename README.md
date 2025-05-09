@@ -174,10 +174,16 @@ No retorno ira ter os campos "insurance_policy_id" que é a apólice gerada.
 ## Links dos serviços
 
 📄 Grafana: http://localhost:3000/
+
+
 📄 Prometheus: http://localhost:9090/targets 
+
+
 📄 RabbitMQ: http://localhost:15672/
 
+
 **OBS**: Senhas estão no arquivo docker-compose.yml
+
 
 ## Autores
 

@@ -1,0 +1,35 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "urlPattern": "/api/v1/offer/bdc56d77-348c-4bf0-908f-22d402ee715c"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "id": "bdc56d77-348c-4bf0-908f-22d402ee715c",
+      "product_id": "2b2da7cc-b367-4196-8a78-9cfeec21f587",
+      "name": "Seguro Residencial Completo",
+      "created_at": "2021-08-01T00:00:00Z",
+      "active": true,
+      "coverages": {
+        "Incêndio": 300000.00,
+        "Desastres naturais": 450000.00,
+        "Responsabiliadade civil": 60000.00
+      },
+      "assistances": [
+        "Chaveiro 24h",
+        "Limpeza Emergencial",
+        "Vidraceiro"
+      ],
+      "monthly_premium_amount": {
+        "max_amount": 80.00,
+        "min_amount": 40.00,
+        "suggested_amount": 50.50
+      }
+    }
+  }
+}

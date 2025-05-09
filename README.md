@@ -117,7 +117,7 @@ Fila no RabbitMQ: policy-issued
 Clone o projeto ou descompacte o projeto
 
 ```bash
-  git clone https://link-para-o-projeto
+  git clone https://github.com/yurimoyses09/Servi-o-de-cota-o-de-Seguros/tree/main
 ```
 
 Entre no diretório do projeto
@@ -151,9 +151,33 @@ Está tudo OK :)
 **Link para instalação: https://docs.docker.com/desktop/setup/install/windows-install/**
 
 
+## Demonstração
+
+Ao validar que o serviço está funcionando no container docker, podemos seguir para o funcionamento em si. A seguir tera uma breve demonstração de como funciona o serviço.
 
 
+1. Enviar os dados via Insonmia para a api:
+![alt text](image.png)
 
+Se os dados estiveram validos tera um retorno de status code 201 e os dados gravados na base.
+Em caso de erro algo semelhante irá retornar:
+
+![alt text](image-1.png)
+
+
+2. Ao ser enviado a cotação ira gerar um evento no RabbitMQ para a geração de apólices (links estarão no fim da documentação). Para validar a geração de apólice podemos chamar a api /api/items/{id_cotacao}:
+
+![alt text](image-2.png)
+
+No retorno ira ter os campos "insurance_policy_id" que é a apólice gerada.
+
+## Links dos serviços
+
+📄 Grafana: http://localhost:3000/
+📄 Prometheus: http://localhost:9090/targets 
+📄 RabbitMQ: http://localhost:15672/
+
+**OBS**: Senhas estão no arquivo docker-compose.yml
 
 ## Autores
 
